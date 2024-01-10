@@ -5,7 +5,7 @@
 -git commit -m 'Votre_commentaire'
 -git push -u origin master 
 -git status
--git checkout Nom_de_branch
+-git checkout -b Nom_de_branch
 -git branch -d Nom_de_ma_branch
 -git push origin --delete Nom_de_ma_branch
 -git pull
