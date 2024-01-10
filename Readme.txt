@@ -1,6 +1,12 @@
 -git init
 -git git remote add origin 'Url_de_votre_depot'
--git git branch -M master 
--git push -u origin main
--git add 
+-git git branch -M Nom_de_ma_branch 
+-git add .
 -git commit -m 'Votre_commentaire'
+-git push -u origin master 
+-git status
+-git checkout Nom_de_branch
+-git branch -d Nom_de_ma_branch
+-git push origin --delete Nom_de_ma_branch
+-git pull
+-git pull origin Nom_de_ma_branch
